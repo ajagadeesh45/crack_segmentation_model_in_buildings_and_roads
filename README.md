@@ -48,16 +48,46 @@ CrackSegmentation/
 └─ .gitignore # To exclude unnecessary files
 ```
 
+## Sample outputs:
 
----
+<img width="993" height="339" alt="image" src="https://github.com/user-attachments/assets/91a5c822-4ff6-4120-9119-334be1735b6e" />
+<img width="993" height="339" alt="image" src="https://github.com/user-attachments/assets/d8e66501-4781-4dee-b403-a23be8ff9cac" />
 
-## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/username/CrackSegmentation.git
-cd CrackSegmentation
-```
-pip install -r requirements.txt
+## Evaluation Metrics
+
+IoU (Intersection over Union): Measures overlap between predicted mask and ground truth
+
+Dice Coefficient: Measures similarity between predicted mask and ground truth
+
+Pixel-wise Accuracy: Measures the proportion of correctly predicted pixels.
+
+## Key Features
+
+U-Net architecture for precise crack segmentation
+
+Supports custom dataset input
+
+Preprocessing and optional data augmentation
+
+Training and inference scripts with visualization of predictions
+
+
+## Results
+
+The model outputs binary masks highlighting cracks in images.
+
+
+
+## Author
+
+
+ JAGADEESH.A
+ <br>
+ B.Tech Artificial Intelligence and Data Science Engineering
+
+
+
+
 
 
 
