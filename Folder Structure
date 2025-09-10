@@ -1,0 +1,20 @@
+CrackSegmentation/
+├─ notebooks/
+│   └─ CrackSegmentation.ipynb        # Your main Colab notebook
+├─ data/
+│   ├─ train/                          # Training images
+│   └─ test/                           # Testing images
+├─ masks/
+│   └─ train/                          # Ground truth masks
+├─ models/
+│   └─ trained_model.pth               # Saved model weights
+├─ scripts/
+│   ├─ train.py                        # Script for training
+│   └─ inference.py                    # Script for inference
+├─ results/                             # Sample outputs
+├─ assets/                              # Optional images for README
+│   ├─ sample_input.jpg
+│   └─ sample_output.png
+├─ requirements.txt                     # Dependencies
+├─ README.md                            # Project documentation
+└─ .gitignore                           # Files to ignore
